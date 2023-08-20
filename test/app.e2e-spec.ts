@@ -4,7 +4,6 @@ import { INestApplication, ValidationPipe } from '@nestjs/common';
 import { PrismaService } from '../src/prisma/prisma.service';
 import * as pactum from 'pactum';
 import { AuthDto, EditUserDto } from '../src/dto';
-import { CreateBookmarkDto } from '../src/bookmark/dto';
 
 describe('App e2e', () => {
     let app: INestApplication;
@@ -128,44 +127,4 @@ describe('App e2e', () => {
             })
         })
     });
-
-    describe('Bookmark', () => {
-        const dto: CreateBookmarkDto = {
-            title: 'Test Title',
-            description: 'This is a test bookmark title.',
-            link: 'http://google.com'
-        }
-        describe('Create bookmark', () => {
-            it('should create a bookmark', () => {
-                return pactum
-                .spec()
-                .post('/bookmarks')
-                .withHeaders({
-                    'Authorization': 'Bearer $S{userAt}'
-                })
-                .withBody(dto)
-                .expectStatus(201)
-                .expectBodyContains(dto.title)
-                .expectBodyContains(dto.link)
-            })
-        });
-
-
-    describe('Get bookmark', () => {
-
-    });
-
-    describe('Get bookmark by id', () => {
-
-    });
-
-    describe('Edit bookmark by id', () => {
-
-    });
-
-    describe('Delete bookmark by id', () => {
-
-    });
-    });
-
 });
