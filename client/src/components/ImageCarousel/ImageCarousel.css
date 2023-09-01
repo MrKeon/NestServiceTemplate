@@ -1,0 +1,16 @@
+.carousel {
+  width: 80%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.carousel.carousel-slider {
+  margin: 0 auto;
+}
+  
