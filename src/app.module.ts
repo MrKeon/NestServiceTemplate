@@ -12,7 +12,7 @@ import { join } from 'path';
     isGlobal: true
     }), 
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'client/build')
+      rootPath: join(__dirname, '../..', 'client/build')
     }),
     AuthModule, 
     UserModule, 
