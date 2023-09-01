@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.baa916fa.css",
+    "main.js": "/static/js/main.03154dff.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/logo-illustration-carpenter-sunrise-silhouette.png": "/static/media/logo-illustration-carpenter-sunrise-silhouette.de9154836b20e1c17383.png",
+    "static/media/logo-illustration-builder-sunrise-silhouette-house-deck (3).png": "/static/media/logo-illustration-builder-sunrise-silhouette-house-deck (3).a7adf8176a33de27c6f7.png",
+    "static/media/logo-illustration-builder-sunrise-silhouette-house-deck.png": "/static/media/logo-illustration-builder-sunrise-silhouette-house-deck.de9f60f56d78504a28be.png",
+    "static/media/logo-illustration-builder-sunrise-silhouette-house-deck (1).png": "/static/media/logo-illustration-builder-sunrise-silhouette-house-deck (1).aa093f10c3098147da1d.png",
+    "static/media/logo-illustration-builder-sunrise-silhouette-house-deck (4).png": "/static/media/logo-illustration-builder-sunrise-silhouette-house-deck (4).aa8c8cb696550d19d23f.png",
+    "static/media/logo-illustration-builder-sunrise-silhouette-house-deck (2).png": "/static/media/logo-illustration-builder-sunrise-silhouette-house-deck (2).0c05388fd470e2f3187d.png",
+    "index.html": "/index.html",
+    "main.baa916fa.css.map": "/static/css/main.baa916fa.css.map",
+    "main.03154dff.js.map": "/static/js/main.03154dff.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.baa916fa.css",
+    "static/js/main.03154dff.js"
+  ]
+}
