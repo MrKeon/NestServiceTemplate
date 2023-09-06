@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. This repository started out as a practice repository from [this](https://youtu.be/GHTA143_b-s?si=yICjrtyuT6GviLE2) YouTube tutorial(Excellent starting tutorial for NestJS!). Now I am modifying the service to host a Single Page Appliction (SPA) using the `ServeStaticModule` from Nest.
 
 ## Installation
 
